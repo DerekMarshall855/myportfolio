@@ -13,8 +13,8 @@ const defaultContainerProps = {
     city: <p>Waterloo, ON, CA</p>,
     linkedin: <a href='https://www.linkedin.com/in/derekmarshall855/'>LinkedIn</a>,
     github: <a href='https://github.com/derekmarshall855'>Github</a>,
-    email: <p>derekmarshall855@gmail.com</p>,
-    phone: <p>519-369-7459</p>
+    email: <p>add before upload</p>,
+    phone: <p>add before upload</p>
 };
 
 //Default Typings
