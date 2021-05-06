@@ -1,7 +1,7 @@
 # Launching the site (Use until properly hosted)
 
-Open portfolio file on command line.
-Run command npm start
+This portfolio is currently available through git-pages.
+Go to the link: https://derekmarshall855.github.io/myportfolio
 
 ## Description
 
