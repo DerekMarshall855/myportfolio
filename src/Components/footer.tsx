@@ -13,8 +13,8 @@ const defaultContainerProps = {
     city: <p>Waterloo, ON, CA</p>,
     linkedin: <a href='https://www.linkedin.com/in/derekmarshall855/'>LinkedIn</a>,
     github: <a href='https://github.com/derekmarshall855'>Github</a>,
-    email: <p>add before upload</p>,
-    phone: <p>add before upload</p>
+    email: <p>derekmarshall855@gmail.com</p>,
+    phone: <p>519 369 7459</p>
 };
 
 //Default Typings
@@ -23,11 +23,11 @@ function Footer({ heading, city, linkedin, github, email, phone }: ContainerProp
 return (
     <div className="footer">
         <h3>{heading}</h3>
-        <img src={emailimg} width="1%" height="10%" alt="email png"/>{email}
-        <img src={cityimg} width="1%" height="10%" alt="city png"/>{city}
-        <img src={phoneimg} width="1%" height="10%" alt="phone png"/>{phone}
-        <img src={linkedinimg} width="1%" height="10%" alt="linkedin png"/>  {linkedin}<p/>
-        <img src={githubimg} width="1%" height="10%" alt="github png"/>  {github}
+        <img src={emailimg} alt="email png"/>{email}
+        <img src={cityimg} alt="city png"/>{city}
+        <img src={phoneimg}  alt="phone png"/>{phone}
+        <img src={linkedinimg} alt="linkedin png"/>  {linkedin}<p/>
+        <img src={githubimg} alt="github png"/>  {github}
     </div>
 );
 }

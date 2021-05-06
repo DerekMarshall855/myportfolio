@@ -15,18 +15,20 @@ import Footer from './footer';
 const Main = () => {
     return (
         <Router>
-        <Header />
-        <NavBar />
-            <div className="page">
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route exact path="/about_me" component={AboutMe} />
-                    <Route exact path="/about_site" component={AboutSite} />
-                    <Route path="/404" component={NotFoundPage} />
-                    <Redirect to="/404" />
-                </Switch>
-            </div>
-        <Footer />
+            <Header />
+            <NavBar />
+            <hr/>
+                <div className="page">
+                    <Switch>
+                        <Route exact path="/" component={Home} />
+                        <Route exact path="/about_me" component={AboutMe} />
+                        <Route exact path="/about_site" component={AboutSite} />
+                        <Route path="/404" component={NotFoundPage} />
+                        <Redirect to="/404" />
+                    </Switch>
+                </div>
+            <hr/>
+            <Footer />
         </Router>
     )
 }

@@ -9,7 +9,7 @@ class NotFoundPage extends React.Component {
     render() {
         return (
             <div className="notFound">
-                <p>PAGE NOT FOUND</p>
+                <p>404 - PAGE NOT FOUND</p>
             </div>
             
         );
