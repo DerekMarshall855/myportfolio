@@ -20,30 +20,33 @@ class About_Me extends React.Component {
             <div className="Me-container">
                 <h3>About Me</h3>
                 <ImageLink image_link={selfie} web_link='https://www.linkedin.com/in/derekmarshall855/'/>
-                <p> I am a detail-oriented and self-motivated Computer
-                    Science and Psychology graduate with some experience in
-                    software development, data analysis and problem
-                    solving. I'm passionate about computer science and
-                    eager to expand knowledge in web development. Mostly I interested in
-                    backend design and implementation, but enjoy full stack and front end
-                    development as well.
-                </p>
-                <p>
-                    I graduated from Wilfrid Laurier University, double majoring in Computer Science and Psychology.
-                    My overall average was a 10/12 (A-), while my computer science average was an 11/12 (A).
-                    I was able to achieve high grades due to my passion for computer programming and my
-                    high work ethic.
-                </p>
-                <p>
-                    Some of my personal interests include:
-                        <ul>
-                            <li>Programming</li>
-                            <li>Reading</li>
-                            <li>Puzzle Games</li>
-                            <li>Watching streams</li>
-                            <li>Playing games</li>
-                        </ul>
-                </p>
+                <div className="floated">
+                    <p> I am a detail-oriented and self-motivated Computer
+                        Science and Psychology graduate with some experience in
+                        software development, data analysis and problem
+                        solving. I'm passionate about computer science and
+                        eager to expand knowledge in web development. Mostly I interested in
+                        backend design and implementation, but enjoy full stack and front end
+                        development as well.
+                    </p>
+                    <p>
+                        I graduated from Wilfrid Laurier University, double majoring in Computer Science and Psychology.
+                        My overall average was a 10/12 (A-), while my computer science average was an 11/12 (A).
+                        I was able to achieve high grades due to my passion for computer programming and my
+                        high work ethic.
+                    </p>
+                    <p>
+                        Some of my personal interests include:
+                            <ul>
+                                <li>Programming</li>
+                                <li>Reading</li>
+                                <li>Puzzle Games</li>
+                                <li>Watching streams</li>
+                                <li>Playing games</li>
+                            </ul>
+                    </p>
+                </div>
+                <hr/>
                 <h2>Years of experience (Academic and Personal) and Level (Professional)</h2>
                 <LangaugeList   languages={['Python - 3 years - Junior',
                                             'Java - 2 years - Junior',

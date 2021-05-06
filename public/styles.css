@@ -171,8 +171,8 @@ color: black;
   color:black;
   text-align: center;
   vertical-align: middle;
-  margin-left: auto;
-  margin-right: auto
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .Me-container p {
@@ -193,7 +193,13 @@ color: black;
 .Me-container img {
   max-width: 12%;
   max-height: 12%;
-  float: left
+  margin-left: 13%;
+  margin-right: 2%;
+  float: left;
+}
+
+.floated li {
+  margin-left: 17%;
 }
 
 /*About Website*/
