@@ -23,10 +23,10 @@ class About_Site extends React.Component {
                 </p>
                 <p>
                     The home page contains links to some of my other projects github pages, which show knowledge
-                    in use of MongoDB, Express, Node, React, Python, Javascript, WebGL and more. The footer on the
+                    in use of MongoDB, Express, Node, React, Python, Javascript, WebGL, and more. The footer on the
                     bottom of each page contains a link to my github for a better overview of all the projects I have completed.
-                    The About Me tab includes a person description, link to my linkedin, and a short summary of all the languages
-                    I have learned throughout my education and person pursuits within computer science.
+                    The About Me tab includes a personal description, link to my linkedin, and a short summary of all the languages
+                    I have learned throughout my education and personal pursuits within computer science.
 
                 </p>
             </div>
