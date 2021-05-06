@@ -20,9 +20,9 @@ const Main = () => {
             <hr/>
                 <div className="page">
                     <Switch>
-                        <Route exact path="/" component={Home} />
-                        <Route exact path="/about_me" component={AboutMe} />
-                        <Route exact path="/about_site" component={AboutSite} />
+                        <Route exact path="/myportfolio" component={Home} />
+                        <Route exact path="/myportfolio/about_me" component={AboutMe} />
+                        <Route exact path="/myportfolio/about_site" component={AboutSite} />
                         <Route path="/404" component={NotFoundPage} />
                         <Redirect to="/404" />
                     </Switch>
