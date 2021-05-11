@@ -47,6 +47,8 @@ class About_Me extends React.Component {
                     </p>
                 </div>
 
+                <hr/>
+
                 <h2>Years of experience (Academic and Personal) and Level (Professional)</h2>
                 <LangaugeList   languages={['Python - 3 years - Junior',
                                             'Java - 2 years - Junior',
