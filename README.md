@@ -1,4 +1,4 @@
-# Launching the site (Use until properly hosted)
+# Launching the site
 
 This portfolio is currently available through git-pages.
 Go to the link: https://derekmarshall855.github.io/myportfolio
