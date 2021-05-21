@@ -4,7 +4,7 @@ import ImageLink from '../Components/image_link';
 
 
 //images
-import WIP from './images/WIP.png';
+import media_clone from './images/media_clone.png';
 import calendar from './images/calendar.png';
 import show_room from './images/live_showroom.png';
 import SGA from './images/SGA.png';
@@ -30,12 +30,12 @@ class Home extends React.Component {
                 <h2>Past Projects (Academic and Personal)</h2>
                 <div className="Home-container">
 
-                    <ImageLink header="Social-Media-Clone (W.I.P)"
-                    image_link={WIP}
+                    <ImageLink header="Blog Site"
+                    image_link={media_clone}
                     web_link="https://github.com/DerekMarshall855/social-media-clone"
-                    desc="A clone of twitter using the MERN stack. Used as a way to better
-                    my knowledge of typescript and express/mongoose backend. Backend mostly complete,
-                    frontend currently being created. More details available on the github page."
+                    desc="A basic blog site that was inspired by twitter. Displays a vertical menu and 
+                    has built in authorization and authentication. User can make and comment on posts if
+                    they are logged in. Has a backend API designed and implemented using MongoDB, ExpressJS and NodeJS"
                     />
                     <ImageLink header="MyDynamicScheduler"
                     image_link={calendar}
