@@ -15,6 +15,7 @@ import KAMP from './images/KAMP.png';
 import c_puzzle from './images/8_puzzle.png';
 import python_puzzle from './images/python_puzzle.png';
 import sudoku from './images/sudoku.png';
+import webstore_clone from './images/amazon_clone.png';
 
 /*
     Required:
@@ -29,7 +30,15 @@ class Home extends React.Component {
                 <h1>Home</h1>
                 <h2>Past Projects (Academic and Personal)</h2>
                 <div className="Home-container">
-
+                    <ImageLink header="Webstore Clone"
+                    image_link={webstore_clone}
+                    web_link="https://github.com/DerekMarshall855/AmazonClone"
+                    desc="A clone of the amazon webstore. Displays dynamic menu of each product loaded in from heroku backend.
+                    Currently being hosted on netlify server and https://webstore-clone.netlify.app/. Can create user accounts,
+                    add products to cart, delete products, checkout, and pay using paypal or debit/credit. This project was implemented
+                    using the MERN stack with CSS inspired by amazon.ca. Currently working on adding admin capabilities including uploading
+                    of extra products and user/order management."
+                    />
                     <ImageLink header="Blog Site"
                     image_link={media_clone}
                     web_link="https://github.com/DerekMarshall855/social-media-clone"
